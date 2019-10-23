@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Travel Agency</title>
@@ -19,14 +20,16 @@
         <a class="navbar-brand" href="#">
             <img src="img/plane-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Travel Agency
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Deals
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Deals
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Deal of the week</a>
@@ -44,12 +47,109 @@
             </ul>
         </div>
     </nav>
+    <!--Ex 3) Add a Jumbotron section in which you present name and claim of the tour operator-->
+
+    <div class="jumbotron jumbotron-fluid w100">
+        <div class="container mx-auto">
+            <h1 class="display-4">Travel Agency</h1>
+            <p class="lead">The Best Travel Agency Ever</p>
+        </div>
+    </div>
+    <!--Ex 4) Implement the "Deal of the Week" section. In this section you'll display 4 destinations.
+         In this section you should have:
+            - 4 destinations per row when the screen is very large
+            - 3 destinations per row when you are on a tablet (or a smaller window)
+            - 2 destinations per row when you are on a small screen
+        image
+        price
+        destination
+    -->
+    <section id="dealOfTheWeek">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3 mb-2" style="width: 18rem;">
+                    <div class="card">
+                        <img src="img/ansgar-scheffold-gGI9zZKMG4g-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Germany</h5>
+                            <p class="card-text crop-text-8">Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Berlin</li>
+                            <li class="list-group-item">Dresden</li>
+                            <li class="list-group-item">Hamburg</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Book now</a>
+                        </div>
+                    </div class="card">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-2" style="width: 18rem;">
+                    <div class="card">
+                        <img src="img/shutterstock_796112473.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Belarus</h5>
+                            <p class="card-text">Its capital and most populous city is Minsk. Over 40% of its 207,600 square kilometres (80,200 sq mi) is forested.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Minsk</li>
+                            <li class="list-group-item">Orsha</li>
+                            <li class="list-group-item">Grodno</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Book now</a>
+                        </div>
+                    </div class="card">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-2" style="width: 18rem;">
+                    <div class="card">
+                        <img src="img/183223496.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pakistan</h5>
+                            <p class="card-text">Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the world’s sixth-most populous country with a population exceeding 212.7 million people.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Karchi</li>
+                            <li class="list-group-item">Islamabad</li>
+                            <li class="list-group-item">Lahore</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Book now</a>
+                        </div>
+                    </div class="card">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mb-2" style="width: 18rem;">
+                    <div class="card">
+                        <img src="img/montana-3-1373385.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><U class="S A"></U></h5>
+                            <p class="card-text">The United States of America, commonly known as the United States or America, is a country comprising 50 states, a federal district, five major self-governing territories, and various possessions. </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">New York</li>
+                            <li class="list-group-item">Montana</li>
+                            <li class="list-group-item">Black Rock City</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Book now</a>
+                        </div>
+                    </div class="card">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script src="index.js"></script>
 </body>
 
