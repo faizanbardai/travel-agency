@@ -6,7 +6,7 @@ nav li a {
     padding-left: 2px !important;
 }
 .jumbotron-fluid{
-    height: 100vh;
+    height: 50vh;
     background-image: url(img/nils-nedel-ONpGBpns3cs-unsplash.jpg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -15,9 +15,15 @@ nav li a {
     padding-top: 400px;
 }
 .crop-text-8 {
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 4;
     overflow : hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+  }
+
+  .card-img-top{
+      height: 15vw;
+      width: 100%;
+      object-fit: cover;
   }
